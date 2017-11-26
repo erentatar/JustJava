@@ -12,9 +12,17 @@
         android:padding="16dp"
         tools:context=".MainActivity">
 
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:text="Toppings"
             android:textAllCaps="true" />
@@ -26,6 +34,15 @@
             android:paddingLeft="24dp"
             android:text="Whipped cream"
             android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/chocolate_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Chocolate"
+            android:textSize="16sp" />
+
 
         <TextView
             android:layout_width="wrap_content"
