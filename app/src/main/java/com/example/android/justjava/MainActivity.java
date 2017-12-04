@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         int price = calculatePrice(hasWhippedCream, hasChocolate);
         String message = createOrderSummary(name, price, hasWhippedCream, hasChocolate);
 
-        composeEmail("Just Java order for " + name, message);
+        composeEmail(getString(R.string.order_summary_email_subject, name), message);
 
         //displayMessage(message);
     }
