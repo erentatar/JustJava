@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Sadece Java</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="quantity">Miktar</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="order_button_text">Sipariş Ver</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="order_summary_text">Sipariş Özeti</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="toppings">Malzemeler</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="chocolate">Çikolata</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name_hint">İsim</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Krema</string>
+    <string name="thank_you">Teşekkürler!</string>
+    <string name="order_summary_name">İsim: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">Krema eklensin mi? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Çikolata eklensin mi? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+    <string name="order_summary_quantity">Miktar: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+    <string name="order_summary_price">Toplam: <xliff:g example="$10" id="price">%s</xliff:g></string>
+    <string name="order_summary_email_subject"><xliff:g example="Amy" id="name">%s</xliff:g> için Sadece Java siparişi</string>
+</resources>
